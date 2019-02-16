@@ -8,3 +8,13 @@ C:\Users\lulu\source\repos\service_example\service_example\obj\Debug\service_exa
 C:\Users\lulu\source\repos\service_example\service_example\obj\Debug\service_example.csproj.CopyComplete
 C:\Users\lulu\source\repos\service_example\service_example\obj\Debug\service_example.exe
 C:\Users\lulu\source\repos\service_example\service_example\obj\Debug\service_example.pdb
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\service_example\service_example\bin\Debug\service_example.exe.config
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\service_example\service_example\bin\Debug\service_example.exe
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\service_example\service_example\bin\Debug\service_example.pdb
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\service_example\service_example\bin\Debug\Topshelf.dll
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\service_example\service_example\bin\Debug\Topshelf.xml
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\service_example\service_example\obj\Debug\service_example.csprojAssemblyReference.cache
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\service_example\service_example\obj\Debug\service_example.csproj.CoreCompileInputs.cache
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\service_example\service_example\obj\Debug\service_example.csproj.CopyComplete
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\service_example\service_example\obj\Debug\service_example.exe
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\service_example\service_example\obj\Debug\service_example.pdb

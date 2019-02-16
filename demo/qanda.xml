@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questions>
+  <question question_id="1" text="1. You may cross a single solid white line in the highway:">
+    <Answer correct="1">If traffic conditions require.</Answer>
+    <Answer2> Whenever you want to.</Answer2>
+    <Answer3>Only to turn into a driveway.</Answer3>
+    <Answer4>Only to make a u-turn.</Answer4>
+  </question>
+  <question question_id="2" text="What does a flashing yellow light mean?">
+    <Answer correct="1">Proceed with caution.</Answer>
+    <Answer2>Merging traffic.</Answer2>
+    <Answer3>Pedestrian crossing.</Answer3>
+    <Answer4>Come to a full stop.</Answer4>
+  </question>
+  <question question_id="3" text="Before merging into traffic, the driver should:">
+    <Answer correct="1">Wait for the signal from other drivers letting him merge the road.</Answer>
+    <Answer2>Make sure he doesn't cause danger to other road users.</Answer2>
+    <Answer3>Give a signal that indicates the right way.</Answer3>
+    <Answer4>Give a signal using the appropriate light signal.</Answer4>
+  </question>
+  <question question_id="4" text="On a two-lane two way road, the driver should ride:">
+    <Answer correct="1">In the left road lane whenever it's free.</Answer>
+    <Answer2>On the lane most convenient for him.</Answer2>
+    <Answer3>Possibly in the rightmost lane, if it's not marked properly.</Answer3>
+    <Answer4>On the right lane if it's marked.</Answer4>
+  </question>
+  <question question_id="5" text="The interval of 2 seconds between the drivers is sufficient when:">
+    <Answer correct="1">The road is dry.</Answer>
+    <Answer2>The road is wet.</Answer2>
+    <Answer3>The visibility of the road is reduced due to fog.</Answer3>
+    <Answer4>The visibility is limited.</Answer4>
+  </question>
+  <question question_id="6" text="In reduced visibility below 50 meters, it is prohibited to:">
+    <Answer correct="1">For the oversized vehicles to stay in the driveaway.</Answer>
+    <Answer2>For self-propelled machines to move.</Answer2>
+    <Answer3>To overtake.</Answer3>
+    <Answer4>The oversized vehicles to move.</Answer4>
+  </question>
+  <question question_id="7" text="The driver of two-wheeled vehicle is prohibited:">
+    <Answer correct="1">T.o release the pedals with which he controls the vehicle,</Answer>
+    <Answer2>To drive with the lights on during the day,</Answer2>
+    <Answer3>To carry objects that impede driving,</Answer3>
+    <Answer4>To drive the vehicle without holding the handle bar,</Answer4>
+  </question>
+  <question question_id="8" text="May a motor vehicle be driven if the driver's health has deteriorated?">
+    <Answer correct="1">Yes, but after taking a necessary medicine before driving.</Answer>
+    <Answer2>No, the driver must not drive.</Answer2>
+    <Answer3>Yes, but after a long period of rest.</Answer3>
+    <Answer4>No, this is wrong.</Answer4>
+  </question>
+  <question question_id="9" text="When there are no any restrictions the moped 
+  should not exceed the following speed outside the populated area:">
+    <Answer correct="1">60 km/h.</Answer>
+    <Answer2>70 km/h.</Answer2>
+    <Answer3>55 km/h.</Answer3>
+    <Answer4>45 km/h.</Answer4>
+  </question>
+  <question question_id="10" text="Parking is prohibited:">
+    <Answer correct="1">Immediately in front of entrances to the buildings, it impedes the access to them.</Answer>
+    <Answer2>In front of entrances of schools and kindergartens.</Answer2>
+    <Answer3>In front of hospitals.</Answer3>
+    <Answer4>On the sidewalk adjacent to schools and kindergartens.</Answer4>
+  </question>
+</questions>
