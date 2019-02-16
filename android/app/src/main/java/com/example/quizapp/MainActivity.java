@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 alarm.cancelAlarm(getApplicationContext());
             }
         } );
-        
+
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
