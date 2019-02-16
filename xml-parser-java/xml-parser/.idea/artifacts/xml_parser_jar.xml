@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="xml-parser:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/xml_parser_jar</output-path>
+    <root id="archive" name="xml-parser.jar">
+      <element id="module-output" name="xml-parser" />
+    </root>
+  </artifact>
+</component>
