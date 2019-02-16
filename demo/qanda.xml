@@ -48,8 +48,7 @@
     <Answer3>Yes, but after a long period of rest.</Answer3>
     <Answer4>No, this is wrong.</Answer4>
   </question>
-  <question question_id="9" text="When there are no any restrictions the moped 
-  should not exceed the following speed outside the populated area:">
+  <question question_id="9" text="When there are no any restrictions the moped should not exceed the following speed outside the populated area:">
     <Answer correct="1">60 km/h.</Answer>
     <Answer2>70 km/h.</Answer2>
     <Answer3>55 km/h.</Answer3>
