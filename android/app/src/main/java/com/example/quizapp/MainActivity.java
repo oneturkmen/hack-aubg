@@ -16,10 +16,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Buttons
         btnStart=(Button) findViewById(R.id.StartBtn);
         stop=(Button) findViewById(R.id.stopService);
         add=(Button) findViewById(R.id.addQuiz);
         delete=(Button) findViewById(R.id.deleteQuiz);
+
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,13 +29,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
         stop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                alarm.cancelAlarm(getApplicationContext());
             }
         } );
+
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
