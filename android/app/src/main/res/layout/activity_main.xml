@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:id="@+id/mainactivity"
@@ -10,44 +10,41 @@
         android:layout_height="wrap_content"
         android:id="@+id/chooseLbl"
         android:text="Choose Quiz"
-        android:autoSizeTextType="uniform"
-        android:autoSizeMinTextSize="12sp"
-        android:autoSizeMaxTextSize="100sp"
-        android:autoSizeStepGranularity="2sp"/>
+        />
 
     <android.support.v7.widget.AppCompatSpinner
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></android.support.v7.widget.AppCompatSpinner>
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chooseLbl"></android.support.v7.widget.AppCompatSpinner>
 
     <Button
         android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:id="@+id/StartBtn"
         android:text="Start Service"
         android:layout_gravity="center"
+        android:layout_below="@+id/chooseLbl"
         ></Button>
 
     <Button
         android:id="@+id/stopService"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Stop Service"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:layout_below="@+id/StartBtn">
 
     </Button>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Add Quiz"
         android:layout_gravity="center"
         android:id="@+id/addQuiz"
+        android:layout_below="@+id/stopService"
         />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/deleteQuiz"
-        android:layout_gravity="center"
-        android:text="Delete Quiz"/>
 
-</LinearLayout>
+
+
+</RelativeLayout>
