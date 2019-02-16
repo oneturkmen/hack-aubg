@@ -1,0 +1,10 @@
+C:\Users\lulu\source\repos\ctest\ctest\bin\Debug\ctest.exe.config
+C:\Users\lulu\source\repos\ctest\ctest\bin\Debug\ctest.exe
+C:\Users\lulu\source\repos\ctest\ctest\bin\Debug\ctest.pdb
+C:\Users\lulu\source\repos\ctest\ctest\obj\Debug\ctest.csprojAssemblyReference.cache
+C:\Users\lulu\source\repos\ctest\ctest\obj\Debug\ctest.Form1.resources
+C:\Users\lulu\source\repos\ctest\ctest\obj\Debug\ctest.Properties.Resources.resources
+C:\Users\lulu\source\repos\ctest\ctest\obj\Debug\ctest.csproj.GenerateResource.cache
+C:\Users\lulu\source\repos\ctest\ctest\obj\Debug\ctest.csproj.CoreCompileInputs.cache
+C:\Users\lulu\source\repos\ctest\ctest\obj\Debug\ctest.exe
+C:\Users\lulu\source\repos\ctest\ctest\obj\Debug\ctest.pdb

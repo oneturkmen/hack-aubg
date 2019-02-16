@@ -1,0 +1,10 @@
+C:\Users\lulu\source\repos\service_example\service_example\bin\Debug\service_example.exe.config
+C:\Users\lulu\source\repos\service_example\service_example\bin\Debug\service_example.exe
+C:\Users\lulu\source\repos\service_example\service_example\bin\Debug\service_example.pdb
+C:\Users\lulu\source\repos\service_example\service_example\bin\Debug\Topshelf.dll
+C:\Users\lulu\source\repos\service_example\service_example\bin\Debug\Topshelf.xml
+C:\Users\lulu\source\repos\service_example\service_example\obj\Debug\service_example.csprojAssemblyReference.cache
+C:\Users\lulu\source\repos\service_example\service_example\obj\Debug\service_example.csproj.CoreCompileInputs.cache
+C:\Users\lulu\source\repos\service_example\service_example\obj\Debug\service_example.csproj.CopyComplete
+C:\Users\lulu\source\repos\service_example\service_example\obj\Debug\service_example.exe
+C:\Users\lulu\source\repos\service_example\service_example\obj\Debug\service_example.pdb
