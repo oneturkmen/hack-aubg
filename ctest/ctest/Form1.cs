@@ -19,8 +19,8 @@ namespace ctest
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Width = 400;
-            Height = 400;
+            Width = 800;
+            Height = 800;
             Form MyFrom = (Form)this;
             Main m = new Main(ref MyFrom);
         }

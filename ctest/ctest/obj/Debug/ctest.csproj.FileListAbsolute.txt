@@ -8,3 +8,13 @@ C:\Users\lulu\source\repos\ctest\ctest\obj\Debug\ctest.csproj.GenerateResource.c
 C:\Users\lulu\source\repos\ctest\ctest\obj\Debug\ctest.csproj.CoreCompileInputs.cache
 C:\Users\lulu\source\repos\ctest\ctest\obj\Debug\ctest.exe
 C:\Users\lulu\source\repos\ctest\ctest\obj\Debug\ctest.pdb
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\ctest\ctest\bin\Debug\ctest.exe.config
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\ctest\ctest\bin\Debug\ctest.exe
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\ctest\ctest\bin\Debug\ctest.pdb
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\ctest\ctest\obj\Debug\ctest.csprojAssemblyReference.cache
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\ctest\ctest\obj\Debug\ctest.Form1.resources
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\ctest\ctest\obj\Debug\ctest.Properties.Resources.resources
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\ctest\ctest\obj\Debug\ctest.csproj.GenerateResource.cache
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\ctest\ctest\obj\Debug\ctest.csproj.CoreCompileInputs.cache
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\ctest\ctest\obj\Debug\ctest.exe
+D:\openserver\OSPanel\domains\procpro.local\hack-aubg\ctest\ctest\obj\Debug\ctest.pdb
