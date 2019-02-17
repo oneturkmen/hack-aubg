@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
        open.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
-               startActivity(new Intent(MainActivity.this, WebView.class));
+               startActivity(new Intent(MainActivity.this, WebViewer.class));
            }
        } );
 

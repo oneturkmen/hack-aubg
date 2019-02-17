@@ -80,8 +80,8 @@ public class XmlParser {
         } catch (Exception e) {
             e.printStackTrace();
             throw  e;
-        } finally {
-            return questions;
         }
+
+        return questions;
     }
 }
