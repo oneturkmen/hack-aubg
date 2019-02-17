@@ -1,5 +1,4 @@
 <?php
-	header('Content-Type: application/xml');
 	function qnumber() //change
 	{
 		return (count($_POST) - 1) / 5;
