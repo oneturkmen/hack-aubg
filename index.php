@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php header('Content-Type: text/xml'); ?>
 <html>
   	<head>
         <meta charset="utf-8">
@@ -10,6 +11,7 @@
         <link rel="stylesheet" type="text/css" media="screen" href="./web/css/main.css">
     </head>
     <body>
+        <?php require_once('./xml-gen.php') ?>
         <!-- Form to get the questions and answers to them -->
         <form method="post">
             <div class="questions">
@@ -61,6 +63,4 @@
             qCounter++;
         });
     </script>
-
-    <?php require('./xml-gen.php') ?>
 </html>
