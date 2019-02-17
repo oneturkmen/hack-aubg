@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnStart;
     Button add;
     Button stop;
-
+    Button open;
     Alarm alarm = new Alarm();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         btnStart=(Button) findViewById(R.id.StartBtn);
         stop=(Button) findViewById(R.id.stopService);
         add=(Button) findViewById(R.id.addQuiz);
-
+        open=(Button) findViewById(R.id.owp);
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,6 +46,12 @@ public class MainActivity extends AppCompatActivity {
         } );
 
 
+       open.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               startActivity(new Intent(MainActivity.this, WebView.class));
+           }
+       } );
     }
 
 }
