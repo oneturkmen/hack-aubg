@@ -2,8 +2,10 @@ package com.example.quizapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,6 +50,37 @@ public class Popup extends AppCompatActivity {
         answer2.setText("The road is wet.");
         answer3.setText("The visibility is limited.");
         answer4.setText("The visibility is limited.");
+
+
+        correct_answer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "Good job!", Toast.LENGTH_SHORT).show();
+                finish();
+                System.exit(0);
+            }
+        });
+
+        answer2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "Incorrect!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        answer3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "Try again!", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        answer4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "Incorrect!", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
 
