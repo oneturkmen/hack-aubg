@@ -8,9 +8,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
 
-        <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="./web/css/style.css">
 		
-<link rel="icon" href="css/favicon.png" type="image/png">
+<link rel="icon" href="web/css/favicon.png" type="image/png">
     </head>
     <body>
 <div class="basic">
@@ -23,10 +23,10 @@
 	<ul>
 	<a href="index.php"><li class="active">HOME </li></a>
 	
-	<a href="gen.php"> <li>CREATE</li></a>
+	<a href="index.get.php"> <li>CREATE</li></a>
 	</ul>
 	
-		<div class="head2"> <img src="css/image2.jpg" /> <div class="headtext">
+		<div class="head2"> <img src="web/css/image2.jpg" /> <div class="headtext">
 		
 		
 		Want to minimize procrastination?
@@ -46,15 +46,15 @@
 			<br />
 			<br />
 			
-		<h1 class="info"> <img src="css/automatic.png"/>	Automatically produces questions for you to answer, at an interval.</h1>
+		<h1 class="info"> <img src="web/css/automatic.png"/>	Automatically produces questions for you to answer, at an interval.</h1>
 		
 			<br />
 			
-			<h1 class="info"> <img src="css/easy.png"/>Provides an easy and simple way for students to learn the material.</h1>
+			<h1 class="info"> <img src="web/css/easy.png"/>Provides an easy and simple way for students to learn the material.</h1>
 			
 			<br />
 			
-			<h1 class="info"> <img src="css/dollar.png"/>All of the features are free!</h1>
+			<h1 class="info"> <img src="web/css/dollar.png"/>All of the features are free!</h1>
 		</div>
 		
 		<div class="buttons">
