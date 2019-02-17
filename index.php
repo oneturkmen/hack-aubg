@@ -1,5 +1,3 @@
-<?php require_once('./xml-gen.php') ?>
-
 <!DOCTYPE html>
 <html>
   	<head>
@@ -14,9 +12,9 @@
     <body>
         <!-- Form to get the questions and answers to them -->
         <?php
-            if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+            /*if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 echo "<a href='$xml_file_name' download>File</a>";
-            }
+            }*/
         ?>
         <form method="post">
             <div class="questions">
@@ -68,4 +66,6 @@
             qCounter++;
         });
     </script>
+
+    <?php require('./xml-gen.php') ?>
 </html>
