@@ -37,6 +37,7 @@
 	
 		$dom->appendChild($root);
 	
-		echo $dom->saveXML();
+		header('Content-type: text/xml');
+		echo $dom;
 	}
 ?>
