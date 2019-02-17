@@ -14,20 +14,12 @@
     <body>
 	
 	<a href="index.php"> <div id="header"> </div> </a>
-	
-	
-        <!-- Form to get the questions and answers to them -->
-        <?php
-            if ($_SERVER['REQUEST_METHOD']=='POST') {
-                echo "<a href='$xml_file_name' download>File</a>";
-            }
-        ?>
 		
 		<h1> </h1>
 		<div class="container-fluid">
 			<ul class="nav nav-pills nav-fill">
 			  <li class="nav-item">
-				<a class="nav-link active" href="index.php">Active</a>
+				<a class="nav-link active" href="/">Active</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="gen.php">Create your quiz</a>
@@ -35,10 +27,10 @@
 			  
 			</ul>
 			
-			</br>
-			</br>
-			</br>
-			</br>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
 			<form method="post">
 				<div class="questions">
 					<!-- Questions here -->
