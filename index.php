@@ -1,44 +1,83 @@
-<?php	
-	function qnumber() //change
-	{
-		return (count($_POST) - 1) / 5;
-	}
-	
-	$dom               = new DOMDocument();
-	$dom->encoding     = 'utf-8';
-	$dom->xmlVersion   = '1.0';
-	// $dom->formatOutput = true;
-	$qnumber           = qnumber();
-	$root              = $dom->createElement('questions');
-	
-	for ($j = 1; $j <= $qnumber; $j++) {
-		$question_node    = $dom->createElement('question');
-		$attr_question_id = new DOMAttr('question_id', $j);
-		$question_node->setAttributeNode($attr_question_id);
-		$attr_question_id = new DOMAttr('text', $_POST['q' . $j]);
-		$question_node->setAttributeNode($attr_question_id);
+<?php require_once('./xml-gen.php') ?>
 
-		for ($i = 1; $i < 5; $i++) {
-			if ($i == 1) {
-				$child_node = $dom->createElement('Answer', $_POST['q' . $j . 'a' . $i]);
-				$attr_answer = new DOMAttr('correct', '1');
-				$child_node->setAttributeNode($attr_answer);
-				$question_node->appendChild($child_node);
-			}else{
-				$child_node = $dom->createElement('Answer' . $i, $_POST['q' . $j . 'a' . $i]);
-				$question_node->appendChild($child_node);
-			}
-		}
-		$root->appendChild($question_node);
-	}
-	$dom->appendChild($root);
-	if($_SERVER["REQUEST_METHOD"]=="POST")
-	echo "<textarea cols='50' rows='30'>".$dom->saveXML()."</textarea>";
-?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>XML Generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
 
-<?php
-////////////////////////
-if($_SERVER["REQUEST_METHOD"]=="GET")
-	include_once "index.inc.php";
-////////////////////////
-?>
+        <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css">
+		
+<link rel="icon" href="css/favicon.png" type="image/png">
+    </head>
+    <body>
+<div class="basic">
+	<a href="index.php"> <div id="header"> </div> </a>
+	
+	
+
+		
+	<div class="wrapper">
+	<ul>
+	<a href="index.php"><li class="active">HOME </li></a>
+	
+	<a href="gen.php"> <li>CREATE</li></a>
+	</ul>
+	
+		<div class="head2"> <img src="css/image2.jpg" /> <div class="headtext">
+		
+		
+		Want to minimize procrastination?
+		
+		<br />
+		Use our tool.
+	
+		
+		
+		
+		</div>  </div> 
+		<div class="container">
+	
+			<div class="content"> <h1> Characteristics of our project: </h1>
+			
+			<br />
+			<br />
+			<br />
+			
+		<h1 class="info"> <img src="css/automatic.png"/>	Automatically produces questions for you to answer, at an interval.</h1>
+		
+			<br />
+			
+			<h1 class="info"> <img src="css/easy.png"/>Provides an easy and simple way for students to learn the material.</h1>
+			
+			<br />
+			
+			<h1 class="info"> <img src="css/dollar.png"/>All of the features are free!</h1>
+		</div>
+		
+		<div class="buttons">
+			<a href="site.com"><div class="btn1">Download</div></a>
+			<a href="index.get.php"><div class="btn2">Create quiz</div></a>
+			</div>
+			
+			
+			
+			
+		<div id="footer"> 
+		
+			<div id="copyright">© 2019 Team Aftermath. 
+	
+		All Rights Reserved
+			</div>
+		</div>
+			</div>
+			
+	</div>
+	
+	</div>
+	<?php
+		//phpinfo();
+	?>
+</html>
