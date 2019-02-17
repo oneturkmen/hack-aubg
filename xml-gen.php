@@ -7,7 +7,7 @@
 	$dom               = new DOMDocument();
 	$dom->encoding     = 'utf-8';
 	$dom->xmlVersion   = '1.0';
-	$dom->formatOutput = true;
+	// $dom->formatOutput = true;
 	$qnumber           = qnumber();
 	$root              = $dom->createElement('questions');
 	
