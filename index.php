@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<?php header('Content-Type: text/xml'); ?>
 <html>
   	<head>
         <meta charset="utf-8">
