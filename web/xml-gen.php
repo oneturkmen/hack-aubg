@@ -39,6 +39,6 @@
 		
 		header('Content-type: text/xml');
 		// $dom->save($xml_file_name);
-		echo $dom->saveXML();
+		print $dom->saveXML();
 	}
 ?>
