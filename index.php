@@ -38,20 +38,13 @@
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="./web/gen.php">Create your quiz</a>
-			  </li>
-			  
-			</ul>
-			
-			
+			  </li>			 
+			</ul>					
+			</br>			
+			<h2 style= "font: bold; text-align: left; font-family: verdana; font-size: 36px; text-align: center ">ABBREVIATE THE PROCRASTINATE!</h2>
 			</br>
 			</br>
-			</br>
-			
-			<h2 style= "font: bold; text-align: left; text-decoration: underline; font-family: verdana; font-size: 37px; text-align: center "> ABBREVIATE THE PROCRASTINATE!</h2>
-			</br>
-			</br>
-			<hr/>
-			<p class="about" style="font-size:27px; "> 
+			<p class="about" style="font-size: 24px;"> 
 			 How many hours you spend each day in front of your screens without learning anything new?
 			 </br>
 			 Create your own personal quiz NOW! 
@@ -61,16 +54,9 @@
 			 Don't miss your chancee! IT'S JUST A CLICK AWAY! 
 			 </br>
 			 
-		     You can also click on <a href="./web/gen.php">CREATE YOUR OWN QUIZ</a> to create a personal query for better knowledge!
-			 
-			 
-			
-			
-			
-			
+		     You can also click on <a href="./web/gen.php">create your own quiz</a> to create a personal query for better knowledge!
 			</p>
-			<button class="button"style="padding: 15px 27px; margin-left: 23em; font-size: 37px; text-align: center; cursor: pointer; outline: none; color: #fff; background-color: #33cc33; border: none; border-radius: 17px; box-shadow: 0 9px #997;">DOWNLOAD THE APP</button>
-			
+			<button class="button"><p style="font-size: 14px; text-align: left;">Download App</p></button>
 			
 	<?php
 		//phpinfo();
