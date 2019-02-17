@@ -56,7 +56,7 @@
 			 
 		     You can also click on <a href="./web/gen.php">create your own quiz</a> to create a personal query for better knowledge!
 			</p>
-			<button class="button"><p style="font-size: 14px; text-align: left;">Download App</p></button>
+			<button type="button" class="btn btn-success btn-lg">Download App</button>
 			
 	<?php
 		//phpinfo();
