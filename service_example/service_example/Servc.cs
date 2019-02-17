@@ -12,8 +12,8 @@ namespace service_example
     public class Servc
     {
         private readonly Timer timer;
-        public Servc() {
-            timer = new Timer(1000*60*15) { AutoReset = true };
+        public Servc(double t) {
+            timer = new Timer(t) { AutoReset = true };
             timer.Elapsed += TimerElapsed;
         }
 
