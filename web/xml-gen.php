@@ -34,15 +34,6 @@
 			}
 			$root->appendChild($question_node);
 		}
-	    	/*$question_node = $dom->createElement('question');
-	    	$attr_question_id = new DOMAttr('question_id', 2);
-	   	$question_node->setAttributeNode($attr_question_id);
-
-	    	for($i=1;$i<5;$i++){
-	    		$child_node = $dom->createElement('Answer'.$i,$_POST['q2a'.$i]);
-	    		$question_node->appendChild($child_node);
-	    	}
-	    	$root->appendChild($question_node);*/
 	
 		$dom->appendChild($root);
 	

@@ -8,67 +8,70 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
+<style> 
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+</style> 
+        <link rel="stylesheet" type="text/css" media="screen" href="./web/css/style.css">
     </head>
     <body>
+	
+	<a href="index.php"> <div id="header"> </div> </a>
+	
+	
         <!-- Form to get the questions and answers to them -->
         <?php
             if ($_SERVER['REQUEST_METHOD']=='POST') {
                 echo "<a href='$xml_file_name' download>File</a>";
             }
         ?>
-        <form method="post">
-            <div class="questions">
-                <!-- Questions here -->
-            </div>
-            <button type="button" class="btn btn-info" id="checkQuestions">More questions?</button>            
-            <button type="submit" class="btn btn-primary" id="submitQuestions" name="submitted">Submit</button>
-        </form>
-
-        <!-- Load JQuery for dynamic input fields -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
-    </body>    
-
-    <!-- For creating more checkboxes -->
-    <script>
-        /* Keep question-answer pairs counted */
-        let qCounter = 1;
-        let aCounter = 1;
-        $('#checkQuestions').click(function() {
-            /* Append question */
-            $('.questions').append(
-                '<div class="form-group">' + 
-                `<label for="q-${qCounter}">${qCounter}. Question</label>` + 
-                `<input type="text" class="form-control" name="q${qCounter}" placeholder="Your question here">` +
-                '</div>'
-            );
-
-            /* Append answers to each question */
-	    for(aCounter = 1; aCounter < 5; aCounter++) {
-			if(aCounter == 1){
-				$('.questions').append(
-                    '<div class="form-group" style="margin-left: 20px;">' +
-                    `<label for="a-${qCounter}">Correct answer</label>` +
-                    `<input type="text" class="form-control" name="q${qCounter}a${aCounter}" placeholder="Your answer here">` +
-                    '</div>'
-                );
-			}else{
-                $('.questions').append(
-                    '<div class="form-group" style="margin-left: 20px;">' +
-                    `<label for="a-${qCounter}">${aCounter}. Answer</label>` +
-                    `<input type="text" class="form-control" name="q${qCounter}a${aCounter}" placeholder="Your answer here">` +
-                    '</div>'
-                );
-			}
-	    }
-				
-            /* Increment the number of question-answer pairs asked */
-            qCounter++;
-        });
-    </script>
+		
+		<h1> </h1>
+		<div class="container-fluid">
+			<ul class="nav nav-pills nav-fill">
+			  <li class="nav-item">
+				<a class="nav-link active" href="#">Active</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="./web/gen.php">Create your quiz</a>
+			  </li>
+			  
+			</ul>
+			
+			
+			</br>
+			</br>
+			</br>
+			
+			<h2 style= "font: bold; text-align: left; text-decoration: underline; font-family: verdana; font-size: 37px; text-align: center "> ABBREVIATE THE PROCRASTINATE!</h2>
+			</br>
+			</br>
+			<hr/>
+			<p class="about" style="font-size:27px; "> 
+			 How many hours you spend each day in front of your screens without learning anything new?
+			 </br>
+			 Create your own personal quiz NOW! 
+			 </br>
+			 Our App is the new Anti-procrastination pill! It helps you improve meanwhile you procrastinate! 
+			 </br> 
+			 Don't miss your chancee! IT'S JUST A CLICK AWAY! 
+			 </br>
+			 
+		     You can also click on <a href="./web/gen.php">CREATE YOUR OWN QUIZ</a> to create a personal query for better knowledge!
+			 
+			 
+			
+			
+			
+			
+			</p>
+			<button class="button"style="padding: 15px 27px; margin-left: 23em; font-size: 37px; text-align: center; cursor: pointer; outline: none; color: #fff; background-color: #33cc33; border: none; border-radius: 17px; box-shadow: 0 9px #997;">DOWNLOAD THE APP</button>
+			
+			
 	<?php
 		//phpinfo();
 	?>
