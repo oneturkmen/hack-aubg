@@ -11,11 +11,6 @@
     </head>
     <body>
         <!-- Form to get the questions and answers to them -->
-        <?php
-            /*if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-                echo "<a href='$xml_file_name' download>File</a>";
-            }*/
-        ?>
         <form method="post">
             <div class="questions">
                 <!-- Questions here -->
