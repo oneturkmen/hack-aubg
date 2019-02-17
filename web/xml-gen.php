@@ -36,9 +36,5 @@ for ($j = 1; $j <= $qnumber; $j++) {
 
 $dom->appendChild($root);
 
-$dom->preserveWhiteSpace = false;
-$dom->formatOutput = true;
-$xml_string = $dom->saveXML();
-print($xml_string);
-// echo $xml_string;
+echo $dom->saveXML();
 ?>
