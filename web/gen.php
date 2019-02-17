@@ -13,7 +13,7 @@
     </head>
     <body>
 	
-	<a href="index.php"> <div id="header"> </div> </a>
+	<a href="/"> <div id="header"> </div> </a>
 		
 		<h1> </h1>
 		<div class="container-fluid">

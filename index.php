@@ -1,35 +1,25 @@
-<?php require_once('./web/xml-gen.php') ?>
-
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>XML Generator</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <!-- Bootstrap CSS -->
-<style> 
-.button:hover {background-color: #3e8e41}
+	<meta charset="utf-8">
+	<title>XML Generator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-</style> 
-        <link rel="stylesheet" type="text/css" media="screen" href="./web/css/style.css">
+	<!-- Bootstrap CSS -->
+	<style> 
+	.button:hover {background-color: #3e8e41}
+
+	.button:active {
+		background-color: #3e8e41;
+		box-shadow: 0 5px #666;
+		transform: translateY(4px);
+	}
+	</style> 
+	<link rel="stylesheet" type="text/css" media="screen" href="./web/css/style.css">
     </head>
     <body>
-	
-	<a href="index.php"> <div id="header"> </div> </a>
-	
-	
-        <!-- Form to get the questions and answers to them -->
-        <?php
-            if ($_SERVER['REQUEST_METHOD']=='POST') {
-                echo "<a href='$xml_file_name' download>File</a>";
-            }
-        ?>
-		
+
+	<a href="/"> <div id="header"> </div> </a>
 		<h1> </h1>
 		<div class="container-fluid">
 			<ul class="nav nav-pills nav-fill">
@@ -47,18 +37,15 @@
 			<p class="about" style="font-size: 24px;"> 
 			 How many hours you spend each day in front of your screens without learning anything new?
 			 </br>
-			 Create your own personal quiz NOW! 
+			 Create your own personal quiz now! The quiz is highly customizable, meaning that you build it!
 			 </br>
-			 Our App is the new Anti-procrastination pill! It helps you improve meanwhile you procrastinate! 
+			 Our App is the new Anti-procrastination pill! It helps you improve meanwhile you procrastinate!
 			 </br> 
-			 Don't miss your chancee! IT'S JUST A CLICK AWAY! 
+			 Don't miss your chance! Just a click away! 
 			 </br>
-			 
+
 		     You can also click on <a href="./web/gen.php">create your own quiz</a> to create a personal query for better knowledge!
 			</p>
 			<button type="button" class="btn btn-success btn-lg">Download App</button>
-			
-	<?php
-		//phpinfo();
-	?>
+    </body>
 </html>
