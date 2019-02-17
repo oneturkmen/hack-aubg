@@ -3,7 +3,7 @@
 	{
 		return (count($_POST) - 1) / 5;
 	}
-	
+	header('Content-Type: application/xml');
 	$dom               = new DOMDocument();
 	$dom->encoding     = 'utf-8';
 	$dom->xmlVersion   = '1.0';
