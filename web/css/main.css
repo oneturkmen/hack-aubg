@@ -2,6 +2,26 @@ body {
 	margin: 15px;
 }
 
+@media only screen and (max-width: 500px) {
+	body {
+		margin: 2px;
+	}
+
+	label {
+		margin-bottom: 0px;
+		font-size: 12px;
+	}
+
+	.form-control {
+		width: 120px;
+		height: calc(1.0em + 0.4rem + 2px);
+	}
+
+	.form-group {
+		margin-bottom: 0.15rem;
+	}
+}
+
 @media only screen and (max-width: 600px) {
 	body {
 		margin: 5px;
