@@ -10,6 +10,7 @@ import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.EditText;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class WebViewer extends Activity {
@@ -49,21 +50,22 @@ public class WebViewer extends Activity {
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 intent.putExtra("TextBox", editText.getText().toString());
 
-                try {
-                    List<Question> questions = XmlParser.parse(editText.getText().toString());
-
-                    System.out.println();
-                    for (Question q : questions) {
-                        System.out.println(q);
-                    }
-                    System.out.println();
-                    finish();
-                    System.exit(0);
-
-                    Popup.setQuestions(questions);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+//                try {
+//                    List<Question> questions = new ArrayList<>();
+//                    questions.
+//
+//                    System.out.println();
+//                    for (Question q : questions) {
+//                        System.out.println(q);
+//                    }
+//                    System.out.println();
+//                    finish();
+//                    System.exit(0);
+//
+//                    Popup.setQuestions(questions);
+//                } catch (Exception e) {
+//                    e.printStackTrace();
+//                }
 
                 startActivityForResult(intent, 1);
             }
