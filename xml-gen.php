@@ -33,6 +33,6 @@
 	}
 
 	$dom->appendChild($root);
-	
-	echo $dom->saveXML();
+	$xml_string = $dom->saveXML();
+	echo $xml_string;
 ?>
