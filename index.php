@@ -1,4 +1,4 @@
-<?php require_once('./xml-gen.php') ?>
+<?php require_once('./web/xml-gen.php') ?>
 
 <!DOCTYPE html>
 <html>
