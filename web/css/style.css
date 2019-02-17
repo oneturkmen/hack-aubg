@@ -1,0 +1,293 @@
+
+
+body{
+    background-color: #e4e4e4!important;
+	margin:0 auto;
+	padding: 0;
+ font-family: 'Quicksand', sans-serif !important;
+ font-weight: 300;
+}
+ h1, h2, h3, h4, h5, h6 {
+ font-weight: 500;
+}
+ 
+.basic {margin: 0 auto;
+width:800px;}
+.wrapper {
+	margin: 0 auto;
+	min-height: 500px;
+	width:800px;
+	 box-shadow: 0px 2px 18px #888888;
+}
+.container {
+
+position: relative;
+	background-color: white;
+ margin: 0 auto 45px auto ;
+  
+width:800px;
+min-height:100%;
+
+	
+} 
+.buttons {
+	
+	text-align:center;
+}
+
+ #header {
+	 
+margin: 5px 20px;
+
+	height: 100px;
+	width: auto;
+	background-image: url("abv.png");
+	/* background-color: #E5E5E5; */
+	   background-repeat: no-repeat, repeat;
+ } 
+#footer {
+	
+clear: both;
+    position: relative;
+	top: 10px;
+	bottom:0px;
+	width: 100%;
+	height: 50px;
+
+	background-image: url("footie.png");
+	  background-repeat: no-repeat, repeat;
+	  background-position: center;
+	
+}
+#copyright {
+	
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+color:white;
+font-size: 12px;
+	
+}
+
+.output {text-align:center;}
+.output a {text-decoration:none;}
+.questions {
+	
+	padding: 15px;
+	
+}
+.form-group {
+	padding: 5px;
+	
+}
+.form-group label {font-weight:bold;}
+.form-control {
+	
+	margin-left: 3px;
+	
+}
+input[type=text] {
+	padding: 0 5px;
+	min-height: 25px;
+	border: 1px solid grey;
+	
+}
+input[type=text]:hover {
+	
+	border: 1px solid blue;
+}
+
+input[type=text]:focus {
+	
+	border: 1px solid blue;
+}
+
+ 
+ 
+ .head2 {
+	 
+	
+	 width:800px;
+	 height:200px;
+	 margin: 0 auto;
+	 position: relative;
+  text-align: center;
+  color: white;
+	 
+ }
+ 
+ .headtext {
+	  position: absolute;
+  bottom: 8px;
+  right: 16px;
+color:white;
+
+
+
+font-size:30px;
+text-shadow: 1px 1px #3b3b3b;
+	 
+ }
+ 
+ 
+ .content {
+	 overflow:hidden;
+	 display: block;
+	 position: relative;
+	 font-size: 12px;
+	 text-align:center;
+	 color: black;
+	 padding: 15px;
+ }
+ 
+ .content h1 {
+	 
+	
+ }
+ .content::before {position: relative;}
+ .content img {vertical-align: middle; }
+ 
+ .info {
+	 overflow: hidden;
+	 clear: both;
+	 overflow: auto;
+	 font-size: 16px; 
+	 float:left;
+ }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ 
+ .btn1 {
+	
+	
+	 border: 3px solid transparent;
+	 display:inline-block;
+	 width: 80px;
+	 padding: 10px;
+	 height: 15px;
+	 background-color: #46A038;
+	 font-size: 12px;
+	 color: white;
+	 text-align:center;
+	 
+ }
+ 
+
+ .btn1:hover {
+	
+	
+
+	display:inline-block;
+	  text-align:center;
+	 width: 80px;
+	 padding: 10px;
+	 height: 15px;
+	 background: white;
+	 color: blue;
+	 
+	 
+	
+	 color: #46A038;
+	 border: 3px solid #46A038;
+	 
+ }
+  .btn2{
+
+	  border: 3px solid transparent;
+	 display:inline-block;
+	 width: 80px;
+	 padding: 10px;
+	 height: 15px;
+	 background-color: blue;
+	 font-size: 12px;
+	 color: white;
+	 text-align:center;
+	 
+ }
+ 
+  .btn2:hover {border: 3px solid blue;
+	display:inline-block;
+	  text-align:center;
+	 width: 80px;
+	 padding: 10px;
+	 height: 15px;
+	 background: white;
+	 color: blue;
+	 
+	 
+ }
+ 
+ .btn-info {
+	 
+	   border: 3px solid transparent;
+	 height:30px;
+	 margin: 5px;
+	 background-color:blue;
+	color:white;
+	}
+ .btn-info:hover {
+	 
+	
+	   border: 3px solid blue;
+	 height:30px;
+	 margin: 5px;
+	 background-color:white;
+	color:blue;
+ }
+ .btn-primary {
+	 border: 3px solid transparent;
+	 margin:5px;
+	 height:30px;
+	 background-color: #46A038;
+	 color:white;
+	 
+ }
+ 
+ .btn-primary:hover {
+	  border: 3px solid #46A038;
+	 margin:5px;
+	 height:30px;
+	 background-color: white;
+	 color:#46A038;
+	 
+	 
+ }
+ul {
+	font-size:0;
+align-items:stretch;
+	padding-left: 0;
+margin: 0 auto;	
+	background-color: white;
+width: 800px;
+}
+ul a { text-decoration: none;
+color: black;} 
+
+li.active{
+    
+
+
+     
+	border-top:3px solid blue;}
+li {
+	
+	list-style-type:none;
+	font-size: 12px;
+	padding: 15px 25px 15px 23px;
+	display:inline-block;
+}
+li:hover {
+	border-top: 3px solid #f3f3f3;
+	background-color: #f3f3f3;
+}
+li.active:hover { 
+border-top:3px solid blue;
+background-color: #f3f3f3}
+li a{
+	color: black;
+	text-decoration: none;}
+
+li a:hover {}
