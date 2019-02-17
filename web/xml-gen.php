@@ -37,8 +37,9 @@
 	
 		$dom->appendChild($root);
 		
-		header('Content-type: text/xml');
-		// $dom->save($xml_file_name);
-		print $dom->saveXML();
+		$dom->preserveWhiteSpace = false;
+		$dom->formatOutput = true;
+		$xml_string = $dom->saveXML();
+		echo $xml_string;
 	}
 ?>
