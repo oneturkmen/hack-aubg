@@ -36,9 +36,9 @@
 		}
 	
 		$dom->appendChild($root);
-	
-		$dom->save($xml_file_name);
-	
-		echo "$xml_file_name has been successfully created";
+		
+		header('Content-type: text/xml');
+		// $dom->save($xml_file_name);
+		echo $dom->saveXML();
 	}
 ?>
