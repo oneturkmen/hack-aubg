@@ -26,16 +26,16 @@ public class Popup extends AppCompatActivity {
         setContentView(R.layout.activity_popup);
 
         // Set qs
-        questions = new ArrayList<Question>();
-        questions.add(
-                new Question(1,
-                        "The interval of 2 seconds between the drivers is ok when",
-                "The road is dry.", "The road is wet.",
-                "The visibility is reduced due to fog.",
-                        "The visibility is limited."));
+//        questions = new ArrayList<Question>();
+//        questions.add(
+//                new Question(1,
+//                        "The interval of 2 seconds between the drivers is ok when",
+//                "The road is dry.", "The road is wet.",
+//                "The visibility is reduced due to fog.",
+//                        "The visibility is limited."));
 
         // Get random question first
-        Question question_to_set = this.getRandomQuestion();
+        // Question question_to_set = this.getRandomQuestion();
 
         my_question = (TextView) findViewById(R.id.questPlace);
         correct_answer = (Button) findViewById(R.id.ansA);
@@ -43,19 +43,11 @@ public class Popup extends AppCompatActivity {
         answer3 = (Button) findViewById(R.id.ansC);
         answer4 = (Button) findViewById(R.id.ansD);
 
-        my_question.setText(question_to_set.getQuestion());
-        correct_answer.setText(question_to_set.getCorrectAnswer());
-        answer2.setText(question_to_set.getAnswer2());
-        answer3.setText(question_to_set.getAnswer3());
-        answer4.setText(question_to_set.getAnswer4());
-    }
-
-    private Question getRandomQuestion() {
-        // Returns random question
-        int index = randomGenerator.nextInt(questions.size());
-        Question question = questions.get(index);
-
-        return question;
+        my_question.setText("The interval of 2 seconds between the drivers is ok when");
+        correct_answer.setText("The road is dry.");
+        answer2.setText("The road is wet.");
+        answer3.setText("The visibility is limited.");
+        answer4.setText("The visibility is limited.");
     }
 
 
