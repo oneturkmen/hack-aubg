@@ -27,7 +27,7 @@
 		<div class="container-fluid">
 			<ul class="nav nav-pills nav-fill">
 			  <li class="nav-item">
-				<a class="nav-link active" href="index.php">Active</a>
+				<a class="nav-link active" href="/">Active</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" href="gen.php">Create your quiz</a>
