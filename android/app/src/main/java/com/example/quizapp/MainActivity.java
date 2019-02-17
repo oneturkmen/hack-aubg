@@ -17,6 +17,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        setTitle("MainActivity");
+        Intent intent = getIntent();
+        String xmlString = intent.getStringExtra("TextBox");
+
+
+
         btnStart=(Button) findViewById(R.id.StartBtn);
         stop=(Button) findViewById(R.id.stopService);
         add=(Button) findViewById(R.id.addQuiz);
@@ -52,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                startActivity(new Intent(MainActivity.this, WebView.class));
            }
        } );
+
     }
 
 }
