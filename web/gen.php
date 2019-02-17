@@ -65,7 +65,7 @@
             $('.questions').append(
                 '<div class="form-group">' + 
                 `<label for="q-${qCounter}">${qCounter}. Question</label>` + 
-                `<input type="text" class="form-control" name="q${qCounter}" placeholder="Your question here">` +
+                `<input type="text" class="form-control" name="q${qCounter}" placeholder="Your question here" required>` +
                 '</div>'
             );
 
@@ -75,14 +75,14 @@
 				$('.questions').append(
                     '<div class="form-group" style="margin-left: 20px;">' +
                     `<label for="a-${qCounter}">Correct answer</label>` +
-                    `<input type="text" class="form-control" name="q${qCounter}a${aCounter}" placeholder="Your answer here">` +
+                    `<input type="text" class="form-control" name="q${qCounter}a${aCounter}" placeholder="Your answer here" required>` +
                     '</div>'
                 );
 			}else{
                 $('.questions').append(
                     '<div class="form-group" style="margin-left: 20px;">' +
                     `<label for="a-${qCounter}">${aCounter}. Answer</label>` +
-                    `<input type="text" class="form-control" name="q${qCounter}a${aCounter}" placeholder="Your answer here">` +
+                    `<input type="text" class="form-control" name="q${qCounter}a${aCounter}" placeholder="Your answer here" required>` +
                     '</div>'
                 );
 			}
