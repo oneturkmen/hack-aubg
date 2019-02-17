@@ -3,7 +3,7 @@
 	{
 		return (count($_POST) - 1) / 5;
 	}
-	
+
 	$dom               = new DOMDocument();
 	$dom->encoding     = 'utf-8';
 	$dom->xmlVersion   = '1.0';
@@ -31,7 +31,6 @@
 		}
 		$root->appendChild($question_node);
 	}
-
 
 	$dom->appendChild($root);
 
