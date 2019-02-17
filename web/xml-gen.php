@@ -5,7 +5,7 @@ function qnumber() //change
 }
 
 $FNAME = time();
-
+header('Content-Type: text/xml');
 $dom               = new DOMDocument();
 $dom->encoding     = 'utf-8';
 $dom->xmlVersion   = '1.0';
@@ -39,6 +39,6 @@ $dom->appendChild($root);
 $dom->preserveWhiteSpace = false;
 $dom->formatOutput = true;
 $xml_string = $dom->saveXML();
-
-echo $xml_string;
+print($xml_string);
+// echo $xml_string;
 ?>
